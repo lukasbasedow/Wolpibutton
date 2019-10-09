@@ -6,7 +6,7 @@ button = Button(2)
 button2 = Button(3)
 
 #print("Button is pressed")
-#send_magic_packet('70:8b:cd:53:de:15')
+#send_magic_packet('xxx')
 
 def start_gamingserver():
     print("Button is pressed")
