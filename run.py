@@ -14,13 +14,18 @@ MAC_GAMING = "XX:XX:XX:XX:XX:XX"
 MAC_CLIENT = "XX:XX:XX:XX:XX:XX"
 
 
+def print_button_press(pc_name):
+    print(f"Button pressed! Waking up {pc_name} ...")
+    return True
+
+
 def start_gamingserver():
-    print("Button is pressed")
+    print_button_press("Gaming Server")
     send_magic_packet(MAC_GAMING)
 
 
 def start_clientserver():
-    print("Button is pressed")
+    print_button_press("Client Server")
     send_magic_packet(MAC_CLIENT)
 
 
